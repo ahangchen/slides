@@ -3,3 +3,4 @@ highlight : mono-blue
 slide-number: true
 footnote : "ahangchen@github"
 theme-override : assets/css/PITCHME.css
+theme: moon
