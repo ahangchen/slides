@@ -17,19 +17,19 @@
   font-size: 3.77em; }
 
 .reveal h2 {
+  text-align: left;
   margin: 1.25em 0;
   font-size: 1.71em; }
 
 .reveal h3 {
+  text-align: left;
   margin: 1.05em 0;
   font-size: 1.45em; }
 
 .reveal h4 {
+  text-align: left;
   margin: 0.9em 0;
   font-size: 1em; }
-
-.reveal h1 {
-  text-shadow: 2px 2px #aabbbbbb; }
 
 .reveal blockquote {
   width:90%;
@@ -46,3 +46,6 @@
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
+.reveal p{
+text-align: left;
+}
