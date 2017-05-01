@@ -33,6 +33,7 @@
 
 .reveal blockquote {
   width:90%;
+  font-size:0.95%
   font-style: normal;
 }
 
@@ -46,6 +47,10 @@
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
-.reveal p{
+.reveal blockquote p{
 text-align: left;
+}
+
+.reveal ul {
+    width: 100%;
 }
