@@ -1,5 +1,5 @@
 .reveal {
-  font-size: 40px; 
+  font-size: 30px; 
 }
 
 .reveal .slides {
@@ -29,7 +29,8 @@
   text-shadow: 2px 2px #abbb; }
 
 .reveal blockquote {
-  width: 100% 
+  width:90%;
+  font-style: normal;
 }
 
 
