@@ -4,8 +4,8 @@
 - Render with [gitpitch](https://github.com/gitpitch/gitpitch)
 
 ## Content
-- [Matlab Auto Data Processing]()
-- [Person Re-id Overview]()
+- [Matlab Auto Data Processing](ripc_auto.md)
+- [Person Re-id Overview](reid.md)
 
 ## Notice
 - Rename desired slide to 'PITCHME.md'
