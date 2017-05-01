@@ -4,4 +4,3 @@ slide-number: true
 footnote : "ahangchen@github"
 theme-override : assets/css/PITCHME.css
 theme: moon
-vertical-center : false
