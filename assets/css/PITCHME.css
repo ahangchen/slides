@@ -18,7 +18,7 @@
 
 .reveal h2 {
   text-align: center;
-  margin: 1.25em 0;
+  margin: 0.15em 0;
   font-size: 2.5em; }
 
 .reveal h3 {
@@ -32,13 +32,13 @@
   font-size: 1em; }
 
 .reveal blockquote {
-  width:90%;
+  width:100%;
   font-size:0.95em;
   font-style: normal;
 }
 
 .reveal .slide blockquote {
-  width:90%;
+  width:100%;
   font-size:0.95em;
   font-style: normal;
 }
