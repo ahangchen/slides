@@ -31,6 +31,11 @@
   margin: 0.9em 0;
   font-size: 1em; }
 
+.reveal blockquote {
+  width:90%;
+  font-size:0.95em;
+  font-style: normal;
+}
 
 .reveal .slide blockquote {
   width:90%;
