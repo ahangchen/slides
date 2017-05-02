@@ -35,6 +35,14 @@
   width:90%;
   font-size:0.95em;
   font-style: normal;
+  text-align: left;
+}
+
+.reveal .slide blockquote {
+  width:90%;
+  font-size:0.95em;
+  font-style: normal;
+  text-align: left;
 }
 
 
@@ -44,12 +52,8 @@
 .reveal section img {
   margin: auto;
   border: 0;
-  text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
-.reveal blockquote p{
-text-align: left;
-}
 
 .reveal ul {
     width: 100%;
