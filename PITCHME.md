@@ -29,13 +29,10 @@
   - image-based
   - 个体的动作行为
   - 长期的活动模式
----
 
-![](reiddataset.png)
+---?image=reiddataset.png
 
----
-
-![](reid2016.png)
+---?image=reid2016.png
 
 ---
 
