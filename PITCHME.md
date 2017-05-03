@@ -29,15 +29,10 @@
   - image-based
   - 个体的动作行为
   - 长期的活动模式
----
 
-![](reiddataset.png)
+---?image=reiddataset.png
 
----
-
-![](reid2016.png)
-
----
+---?image=reid2016.png
 
 - 数据越来越多
 - 边界倾向于由行人检测器（DPM，ACF）生成，但这种检测器可能会错标，导致re-id准确率下降
