@@ -3,12 +3,12 @@
 # Matlab Remote IPC 
 ## 实现数据自动化处理
 
-转载请注明作者[梦里茶](https://github.com/ahangchen)
+> 转载请注明作者[梦里茶](https://github.com/ahangchen)
 
 ---
 
-## 需求
-> 在研究中遇到这样一种需求，
+### 需求
+#### 在研究中遇到这样一种需求，
 - 在Matlab端做GPU运算；
 - 在Python端做数据清洗和数据分析；
 - 两端分属两个服务器；
@@ -16,7 +16,7 @@
 - P端需要等待M端完成训练和预测才能做数据分析
 ---
 
-## 问题
+### 问题
 - 数据很多，不适合将两端合并到一个服务器上
 - 存在增量训练，对同一份数据，可能要结合多份额外数据进行N次传输
 - 由于采用10折交叉验证，数据划分为10份，总共要进行10×N次传输
@@ -25,10 +25,10 @@
 > 上面的几个点使得训练的过程非常繁琐耗时
 ---
 
-## 探索
-> 作为不耐心而且懒的程序员，
-> 超过15秒的事情就想要自动化，
-> 于是开始想能不能把上面这个过程自动化
+### 探索
+- 作为不耐心而且懒的程序员，
+- 超过15秒的事情就想要自动化，
+- 于是开始想能不能把上面这个过程自动化
 
 ---
 ### 方案一 用一种语言重写另一方的代码
@@ -60,8 +60,8 @@
 
 ---
 
-## 实现
-### Matlab执行shell命令
+### 实现
+#### Matlab执行shell命令
 ```matlab
 setenv('d_name', dataset_name);
 setenv('std_idx', num2str(i));
@@ -70,7 +70,7 @@ setenv('std_idx', num2str(i));
 !env LD_LIBRARY_PATH='' ssh cwh@192.168.231.171 "cd /home/cwh/coding/Project; python data_analysis.py data/${std_idx}-train"
 ```
 
-其中
+#### 其中
 - 通过setenv来设置环境变量，从而动态决定要执行的脚本的内容
 - 在matlab代码中，使用`!`开头，代表这是一行shell命令
 - 需要把LD_LIBRARY_PATH这个环境变量置为空，防止使用matlab自带的一些lib，导致ssh等命令执行失败
@@ -106,7 +106,7 @@ setenv('std_idx', num2str(i));
 
 ---
 
-## SUMMARY
+### SUMMARY
 - matlab调shell
 - shell中ssh做远程进程调用
 - scp做数据传输
@@ -115,4 +115,4 @@ setenv('std_idx', num2str(i));
 ---
 
 # Thank you
-https://github.com/ahangchen
+> https://github.com/ahangchen
