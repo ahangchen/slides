@@ -164,6 +164,8 @@
     - 比较前先resize
     - identification比recognization更能充分利用标签
 
+---
+
 ## 展望
  - 性能评估
  - 大数据在特征上建立索引
