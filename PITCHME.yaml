@@ -2,7 +2,7 @@ mathjax : TeX-MML-AM_HTMLorMML-full
 highlight : mono-blue
 slide-number: true
 footnote : "ahangchen@github"
-theme-override : assets/css/PITCHME.css
+
 theme: moon
 background-size : auto
 revealjs: 3.4.1
