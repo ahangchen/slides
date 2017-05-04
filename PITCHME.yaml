@@ -5,4 +5,4 @@ footnote : "ahangchen@github"
 theme-override : assets/css/PITCHME.css
 theme: moon
 background-size : auto
-revealjs: 3.4.1
+# revealjs: 3.4.1
