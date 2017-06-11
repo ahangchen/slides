@@ -58,7 +58,7 @@
 
 ---
 
-### Conditions that assumption not hold
+### When assumptions not hold
 - Initial training epochs when the network is changing rapidly.
 - Results are stable for a large range of sizes, beyond a certain point
 ![](size-acc.png)
@@ -66,10 +66,10 @@
 ---
 
 ### Warm Up
-- Low learning rate to solve rapid change of the initial network.
-- Constant Warmup: Sudden change of learning rate causes the training error to spike.
-- Gradual warmup: Ramping up the learning rate from a small to a large value.
-- start from a learning rate of η and increment it by a constant amount at each iteration such that it reaches η̂ = kη after 5 epochs.
+- `Low learning rate` to solve `rapid change of the initial network`.
+- Constant Warmup: `Sudden change` of learning rate causes the training error to spike.
+- Gradual warmup: `Ramping up` the learning rate from a small to a large value.
+- start from a learning rate of η and increment it by a constant amount at each iteration such that it reaches `η'= kη` after 5 epochs.
 
 ---
 ### Reference
