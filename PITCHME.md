@@ -72,6 +72,8 @@
 - start from a learning rate of η and increment it by a constant amount at each iteration such that it reaches η'= kη after 5 epochs.
 
 ---
+![](warm_up.png)
+---
 
 ### Subtleties and Pitfalls of Distributed SGD
 - Weight decay: Scaling the cross-entropy loss is not equivalent to scaling the learning rate.
@@ -81,7 +83,12 @@
 
 ---
 
-
+### Experiment
+- Dataset: ImageNet
+- Hardware: 256 NVIDIA Tesla P100 GPUs
+- Software: Caffe2
+- Network: ResNet-50
+- Batch size: 8192 images.
 ---
 ### Reference
 - [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h3.pdf?)
