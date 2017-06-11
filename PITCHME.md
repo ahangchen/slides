@@ -92,9 +92,9 @@
 ---
 ![](exp_rst.png)
 ---
-![Distributed synchronous SGD timing](size_time.png)
+![Distributed synchronous SGD timing](size-time.png)
 ---
-![Distributed synchronous SGD throughput](size_throughput.png)
+![Distributed synchronous SGD throughput](gpu_throughput.png)
 ---
 ### Reference
 - [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h3.pdf?)
