@@ -48,6 +48,8 @@
 ### Solution
 - Linear Scaling Rule: When the minibatch size is multiplied by k, multiply the learning rate by k.
 
+---
+
 ### Analysis
 - k iteration, minibatch size of n:
 ![](k_nsgd.png)
