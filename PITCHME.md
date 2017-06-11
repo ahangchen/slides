@@ -83,6 +83,21 @@
 
 ---
 
+### Weight decay
+
+- Loss containing weight decay term: 
+![l2_loss](l2_loss.png)
+- Update: ![l2_update](l2_update.png)
+- Scaling the cross-entropy loss is not equivalent to scaling the learning rate.
+---
+### Momentum correction
+- Original momentum:
+![](origin_moment.png)
+- A popular variant absorbs the learning rate into the update tensor.
+![](var_moment.png)
+- When η changes, to maintain equivalence, v should be:
+![](moment_correct.png)
+---
 ### Experiment
 - Dataset: ImageNet
 - Hardware: 256 NVIDIA Tesla P100 GPUs
