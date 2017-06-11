@@ -1,5 +1,5 @@
-# Accurate, Large Minibatch SGD
-# Training ImageNet in 1 Hour
+## Accurate, Large Minibatch SGD
+## Training ImageNet in 1 Hour
 
 ---
 
@@ -19,8 +19,6 @@
 - Larger mini-batch size lead to lower accuracy.
 
 ---
-
-### mini-batch SGD
 
 ![](mbgd.png)
 
@@ -57,6 +55,8 @@
 ![](kn_sgd.png)
 - Assume gradients of the above fomulas are equal
   - Two updates can be similar only if we set the second learning rate to k times the first learning rate.
+
+---
 
 ### Conditions that assumption not hold
 - Initial training epochs when the network is changing rapidly.
