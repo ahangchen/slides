@@ -87,7 +87,7 @@
 
 - Loss containing weight decay term: 
 ![l2_loss](l2_loss.png)
-- Update: ![](wd_update.png)
+- Update: ![](https://raw.githubusercontent.com/ahangchen/slides/master/l2_update.png)
 - Scaling the cross-entropy loss is not equivalent to scaling the learning rate.
 ---
 ### Momentum correction
