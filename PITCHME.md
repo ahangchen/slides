@@ -90,6 +90,12 @@
 - Network: ResNet-50
 - Batch size: 8192 images.
 ---
+![](exp_rst.png)
+---
+![Distributed synchronous SGD timing](size_time.png)
+---
+![Distributed synchronous SGD throughput](size_throughput.png)
+---
 ### Reference
 - [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h3.pdf?)
 - [机器之心提问：如何评价Facebook Training ImageNet in 1 Hour这篇论文?](https://www.zhihu.com/question/60874090)
