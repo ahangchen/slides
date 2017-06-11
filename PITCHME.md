@@ -72,6 +72,17 @@
 - start from a learning rate of η and increment it by a constant amount at each iteration such that it reaches `η'= kη` after 5 epochs.
 
 ---
+
+### Subtleties and Pitfalls of Distributed SGD
+- Weight decay: Scaling the cross-entropy loss is not equivalent to scaling the learning rate.
+- Momentum correction: Apply momentum correction after changing learning rate.
+- Gradient aggregation: Normalize the per-worker loss by total minibatch size kn, not per-worker size n.
+- Data shuffling: Use a single random shuffling of the training data (per epoch) that is divided amongst all k workers.
+
+---
+
+
+---
 ### Reference
 - [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h3.pdf?)
 - [机器之心提问：如何评价Facebook Training ImageNet in 1 Hour这篇论文?](https://www.zhihu.com/question/60874090)

@@ -5,20 +5,24 @@
 .reveal h1 {
   text-align: center;
   margin: auto;
+  font-family: "League Gothic",Impact,sans-serif;
   font-size: 3.77em; }
 
 .reveal h2 {
   text-align: center;
+  font-family: "League Gothic",Impact,sans-serif;
   margin: 0.15em 0;
   font-size: 2.5em; }
 
 .reveal h3 {
   text-align: left;
+  font-family: "League Gothic",Impact,sans-serif;
   margin: 1.05em 0;
   font-size: 2.0em; }
 
 .reveal h4 {
   text-align: left;
+  font-family: "League Gothic",Impact,sans-serif;
   margin: 0.9em 0;
   font-size: 1em; }
 
@@ -34,6 +38,9 @@
   font-style: normal;
 }
 
+.reveal .slides {
+  background-color: #eee8d5;
+}
 
 /*********************************************
  * IMAGES
