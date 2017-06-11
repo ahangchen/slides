@@ -92,10 +92,13 @@
 ---
 ### Momentum correction
 - Original momentum:
+
 ![](origin_moment.png)
 - A popular variant absorbs the learning rate into the update tensor.
+
 ![](var_moment.png)
 - When η changes, to maintain equivalence, v should be:
+
 ![](moment_correct.png)
 ---
 ### Experiment
@@ -108,8 +111,10 @@
 ![](exp_rst.png)
 ---
 ![Distributed synchronous SGD timing](size-time.png)
+> Distributed synchronous SGD timing
 ---
 ![Distributed synchronous SGD throughput](gpu_throughput.png)
+> Distributed synchronous SGD throughput
 ---
 ### Reference
 - [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h3.pdf?)
